@@ -1,16 +1,12 @@
 #!/usr/bin/python3
-"""
-1-square.py: is a class Square that defines a square
-"""
-
 
 class Square:
-    """class Square that defines a square
+    """Defines a square by its size"""
 
-        Attributes:
-        attr1 (size): Size of the Square.
-
-    """
-
-    def __init__(self, size=0):
-        self.__size = size
+    def __init__(self, size):
+        """Initialize a new Square
+        
+        Args:
+            size (int): The size of the square (private attribute)
+        """
+        self.__size = size   # Private instance attribute
